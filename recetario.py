@@ -63,7 +63,7 @@ def elegir_categoria(lista):
     eleccion_correcta = 'x'
 
     while not eleccion_correcta.isnumeric() or int(eleccion_correcta) not in range(1, len(lista) + 1):
-        eleccion_correcta = input("\nElije una categoria: ")
+        eleccion_correcta = input("\nElige una categoria: ")
 
     return lista[int(eleccion_correcta) - 1]
 
@@ -87,7 +87,7 @@ def elegir_recetas(lista):
     eleccion_receta = 'x'
 
     while not eleccion_receta.isnumeric() or int(eleccion_receta) not in range(1, len(lista) + 1):
-        eleccion_receta = input("\nElije una receta: ") 
+        eleccion_receta = input("\nElige una receta: ") 
 
     return lista[int(eleccion_receta) - 1]
 
